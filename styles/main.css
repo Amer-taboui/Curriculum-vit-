@@ -73,6 +73,31 @@ li{
 #user-name{
     font-size: 48px;
     line-height: 1em;
+    margin-bottom: 0.15em;
+}
+
+#role{
+    color: var(--mainTextColor);
+    font-size: 1.15em;
+    font-weight: 500;
+    margin: 0.2em 0;
+}
+
+#location,
+.meta{
+    color: var(--secondaryTextColor);
+    margin-top: 0;
+}
+
+h2{
+    font-size: 1.35em;
+    margin-bottom: 0.4em;
+}
+
+h3{
+    font-size: 1em;
+    font-weight: 500;
+    margin-bottom: 0.6em;
 }
 
 #profile-pic{
@@ -110,11 +135,29 @@ li{
     list-style: none;
 }
 
-#wrapper--techstack__items{
+#wrapper--techstack__items,
+.wrapper--techstack{
     display: flex;
     flex-wrap: wrap;
     gap: 1em;
     font-size: 0.9em;
+}
+
+.skill-group{
+    margin-top: 1.4em;
+}
+
+.project{
+    margin-top: 1.6em;
+    padding-top: 0.4em;
+}
+
+.card--work-history strong{
+    color: var(--mainTextColor);
+}
+
+.card--work-history ul{
+    padding-left: 1.2em;
 }
 
 .card--techstack{
